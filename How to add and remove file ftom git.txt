@@ -1,0 +1,314 @@
+PS E:\HTML\CSS Blog Project> git init
+Initialized empty Git repository in E:/HTML/CSS Blog Project/.git/
+PS E:\HTML\CSS Blog Project> git add .
+warning: in the working copy of 'blog-project-master/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'blog-project-master/scripts/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'blog-project-master/styles/style.css', LF will be replaced by CRLF the next time Git touches it
+PS E:\HTML\CSS Blog Project> git commit -m "blog project"
+[master (root-commit) f47d061] blog project
+ 28 files changed, 2108 insertions(+)
+ create mode 100644 AnisulBlog.html
+ create mode 100644 BlogPro.js
+ create mode 100644 BlogProject.css
+ create mode 100644 Img (1).jpg
+ create mode 100644 Img (2).jpg
+ create mode 100644 Img (3).jpg
+ create mode 100644 Img (4).jpg
+ create mode 100644 My pratice/EK_Pot.css
+ create mode 100644 My pratice/Emon_Potfolio.html
+ create mode 100644 My pratice/Ligo.png
+ create mode 100644 My pratice/Resturant.jpg
+ create mode 100644 PCsvg.svg
+ create mode 100644 blog-project-master/.DS_Store
+ create mode 100644 blog-project-master/images/cover-photo.jpg
+ create mode 100644 blog-project-master/images/header.svg
+ create mode 100644 blog-project-master/images/img-1.jpg
+ create mode 100644 blog-project-master/images/img-2.jpg
+ create mode 100644 blog-project-master/images/img-3.jpg
+ create mode 100644 blog-project-master/images/logo.png
+ create mode 100644 blog-project-master/index.html
+ create mode 100644 blog-project-master/scripts/index.js
+ create mode 100644 blog-project-master/styles/style.css
+ create mode 100644 cover-photo.jpg
+ create mode 100644 header.svg
+ create mode 100644 img-1.jpg
+ create mode 100644 img-2.jpg
+ create mode 100644 img-3.jpg
+ create mode 100644 logo.png
+PS E:\HTML\CSS Blog Project> git remote add origin https://github.com/Khanemon/blog-project-video.git
+>> git branch -M main
+>> git push -u origin main
+fatal: helper error (-1): User cancelled dialog.
+remote: Permission to Khanemon/blog-project-video.git denied to waleed8hassan.
+fatal: unable to access 'https://github.com/Khanemon/blog-project-video.git/': The requested URL returned error: 403
+PS E:\HTML\CSS Blog Project> git remote add origin https://github.com/Khanemon/blog-project-video.git
+error: remote origin already exists.
+PS E:\HTML\CSS Blog Project> git branch -M main
+PS E:\HTML\CSS Blog Project> git push -u origin main^C
+PS E:\HTML\CSS Blog Project> git remote add origin https://github.com/Khanemon/blog-project-video.git
+error: remote origin already exists.
+PS E:\HTML\CSS Blog Project> git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Khanemon/blog-project-video.git'
+PS E:\HTML\CSS Blog Project> git push -m origin master
+error: unknown switch `m'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --force-if-includes   require remote updates to be integrated locally
+    --recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+PS E:\HTML\CSS Blog Project> git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Khanemon/blog-project-video.git'
+PS E:\HTML\CSS Blog Project> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (28/28), done.
+Writing objects: 100% (30/30), 15.96 MiB | 1.19 MiB/s, done.
+Total 30 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Khanemon/blog-project-video.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS E:\HTML\CSS Blog Project> ls -l
+>>
+Get-ChildItem : Missing an argument for parameter 'LiteralPath'. Specify a parameter of type 'System.String[]' and 
+try again.
+At line:1 char:4
++ ls -l
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS E:\HTML\CSS Blog Project> ls -l
+Get-ChildItem : Missing an argument for parameter 'LiteralPath'. Specify a parameter of type 'System.String[]' and 
+try again.
+At line:1 char:4
++ ls -l
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS E:\HTML\CSS Blog Project> git remote -v
+origin  https://github.com/Khanemon/blog-project-video.git (fetch)
+origin  https://github.com/Khanemon/blog-project-video.git (push)
+PS E:\HTML\CSS Blog Project> ls -l        
+Get-ChildItem : Missing an argument for parameter 'LiteralPath'. Specify a parameter of type 'System.String[]' and 
+try again.
+At line:1 char:4
++ ls -l
++    ~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS E:\HTML\CSS Blog Project> git remote -v
+origin  https://github.com/Khanemon/blog-project-video.git (fetch)
+origin  https://github.com/Khanemon/blog-project-video.git (push)
+PS E:\HTML\CSS Blog Project> ls
+
+
+    Directory: E:\HTML\CSS Blog Project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20-Oct-21   3:08 PM                blog-project-master
+-a----         19-Aug-23   9:40 PM           9872 AnisulBlog.html
+-a----         19-Aug-23   9:51 PM            297 BlogPro.js
+-a----         19-Aug-23   9:38 PM           8454 BlogProject.css
+-a----         20-Oct-21   3:08 PM        1439440 cover-photo.jpg
+-a----         20-Oct-21   3:08 PM          10686 header.svg
+-a----         19-Aug-23  12:43 PM         998486 Img (1).jpg
+-a----         19-Aug-23  12:44 PM        1309082 Img (2).jpg
+-a----         19-Aug-23  12:44 PM         891092 Img (3).jpg
+-a----         19-Aug-23  12:52 PM         853806 Img (4).jpg
+-a----         20-Oct-21   3:08 PM        1631166 img-1.jpg
+-a----         20-Oct-21   3:08 PM        2566277 img-2.jpg
+-a----         18-Aug-23  11:44 PM         630343 img-3.jpg
+-a----         20-Oct-21   3:08 PM           4197 logo.png
+-a----         19-Aug-23  12:54 PM          45287 PCsvg.svg
+
+
+PS E:\HTML\CSS Blog Project> git rm -r 'My pratice'
+fatal: pathspec 'My pratice' did not match any files
+PS E:\HTML\CSS Blog Project> git remote -v
+origin  https://github.com/Khanemon/blog-project-video.git (fetch)
+origin  https://github.com/Khanemon/blog-project-video.git (push)
+PS E:\HTML\CSS Blog Project> git fetch
+PS E:\HTML\CSS Blog Project> git pull
+Merge made by the 'ort' strategy.
+ README.md |   2 ++
+ logo.png  | Bin 4197 -> 0 bytes
+ 2 files changed, 2 insertions(+)
+ create mode 100644 README.md
+ delete mode 100644 logo.png
+PS E:\HTML\CSS Blog Project> git pull "My pratice"
+fatal: 'My pratice' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS E:\HTML\CSS Blog Project> ls
+
+
+    Directory: E:\HTML\CSS Blog Project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20-Oct-21   3:08 PM                blog-project-master
+-a----         19-Aug-23   9:40 PM           9872 AnisulBlog.html
+-a----         19-Aug-23   9:51 PM            297 BlogPro.js
+-a----         19-Aug-23   9:38 PM           8454 BlogProject.css
+-a----         20-Oct-21   3:08 PM        1439440 cover-photo.jpg
+-a----         20-Oct-21   3:08 PM          10686 header.svg
+-a----         19-Aug-23  12:43 PM         998486 Img (1).jpg
+-a----         19-Aug-23  12:44 PM        1309082 Img (2).jpg
+-a----         19-Aug-23  12:44 PM         891092 Img (3).jpg
+-a----         19-Aug-23  12:52 PM         853806 Img (4).jpg
+-a----         20-Oct-21   3:08 PM        1631166 img-1.jpg
+-a----         20-Oct-21   3:08 PM        2566277 img-2.jpg
+-a----         18-Aug-23  11:44 PM         630343 img-3.jpg
+-a----         19-Aug-23  12:54 PM          45287 PCsvg.svg
+-a----         20-Aug-23  12:49 AM            117 README.md
+
+
+PS E:\HTML\CSS Blog Project> git pull                       
+Already up to date.
+PS E:\HTML\CSS Blog Project> git remote -v
+origin  https://github.com/Khanemon/blog-project-video.git (fetch)
+origin  https://github.com/Khanemon/blog-project-video.git (push)
+PS E:\HTML\CSS Blog Project> git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 501 bytes | 501.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Khanemon/blog-project-video.git
+   dd5cf14..337b8e6  main -> main
+branch 'main' set up to track 'origin/main'.
+PS E:\HTML\CSS Blog Project> git pull     
+Already up to date.
+PS E:\HTML\CSS Blog Project> ls
+
+
+    Directory: E:\HTML\CSS Blog Project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20-Oct-21   3:08 PM                blog-project-master
+-a----         19-Aug-23   9:40 PM           9872 AnisulBlog.html
+-a----         19-Aug-23   9:51 PM            297 BlogPro.js
+-a----         19-Aug-23   9:38 PM           8454 BlogProject.css
+-a----         20-Oct-21   3:08 PM        1439440 cover-photo.jpg
+-a----         20-Oct-21   3:08 PM          10686 header.svg
+-a----         19-Aug-23  12:43 PM         998486 Img (1).jpg
+-a----         19-Aug-23  12:44 PM        1309082 Img (2).jpg
+-a----         19-Aug-23  12:44 PM         891092 Img (3).jpg
+-a----         19-Aug-23  12:52 PM         853806 Img (4).jpg
+-a----         20-Oct-21   3:08 PM        1631166 img-1.jpg
+-a----         20-Oct-21   3:08 PM        2566277 img-2.jpg
+-a----         18-Aug-23  11:44 PM         630343 img-3.jpg
+-a----         19-Aug-23  12:54 PM          45287 PCsvg.svg
+-a----         20-Aug-23  12:49 AM            117 README.md
+
+
+PS E:\HTML\CSS Blog Project> git rm -r 'My pratice'
+fatal: pathspec 'My pratice' did not match any files
+PS E:\HTML\CSS Blog Project> git rm -r 'blog project-master'
+fatal: pathspec 'blog project-master' did not match any files
+PS E:\HTML\CSS Blog Project> git rm -r 'blog-project-master'                   
+rm 'blog-project-master/.DS_Store'
+rm 'blog-project-master/images/cover-photo.jpg'
+rm 'blog-project-master/images/header.svg'
+rm 'blog-project-master/images/img-1.jpg'
+rm 'blog-project-master/images/img-2.jpg'
+rm 'blog-project-master/images/img-3.jpg'
+rm 'blog-project-master/images/logo.png'
+rm 'blog-project-master/index.html'
+rm 'blog-project-master/scripts/index.js'
+rm 'blog-project-master/styles/style.css'
+PS E:\HTML\CSS Blog Project> git commit -m "remove folder"
+[main 96b349f] remove folder
+ 10 files changed, 719 deletions(-)
+ delete mode 100644 blog-project-master/.DS_Store
+ delete mode 100644 blog-project-master/images/cover-photo.jpg
+ delete mode 100644 blog-project-master/images/header.svg
+ delete mode 100644 blog-project-master/images/img-1.jpg
+ delete mode 100644 blog-project-master/images/img-2.jpg
+ delete mode 100644 blog-project-master/images/img-3.jpg
+ delete mode 100644 blog-project-master/images/logo.png
+ delete mode 100644 blog-project-master/index.html
+ delete mode 100644 blog-project-master/scripts/index.js
+ delete mode 100644 blog-project-master/styles/style.css
+PS E:\HTML\CSS Blog Project> ls
+
+
+    Directory: E:\HTML\CSS Blog Project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         19-Aug-23   9:40 PM           9872 AnisulBlog.html
+-a----         19-Aug-23   9:51 PM            297 BlogPro.js
+-a----         19-Aug-23   9:38 PM           8454 BlogProject.css
+-a----         20-Oct-21   3:08 PM        1439440 cover-photo.jpg
+-a----         20-Oct-21   3:08 PM          10686 header.svg
+-a----         19-Aug-23  12:43 PM         998486 Img (1).jpg
+-a----         19-Aug-23  12:44 PM        1309082 Img (2).jpg
+-a----         19-Aug-23  12:44 PM         891092 Img (3).jpg
+-a----         19-Aug-23  12:52 PM         853806 Img (4).jpg
+-a----         20-Oct-21   3:08 PM        1631166 img-1.jpg
+-a----         20-Oct-21   3:08 PM        2566277 img-2.jpg
+-a----         18-Aug-23  11:44 PM         630343 img-3.jpg
+-a----         19-Aug-23  12:54 PM          45287 PCsvg.svg
+-a----         20-Aug-23  12:49 AM            117 README.md
+
+
+PS E:\HTML\CSS Blog Project> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 230 bytes | 230.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Khanemon/blog-project-video.git
+   337b8e6..96b349f  main -> main
+branch 'main' set up to track 'origin/main'.
+PS E:\HTML\CSS Blog Project>
